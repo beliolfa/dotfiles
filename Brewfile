@@ -10,7 +10,7 @@ brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
-brew install getantibody/tap/antibody # ZSH Plugin Manager
+brew 'getantibody/tap/antibody' # ZSH Plugin Manager
 
 brew 'git'
 brew 'gnupg2'
@@ -53,6 +53,7 @@ cask 'tableplus'
 cask 'there'
 cask 'transmit'
 cask 'visual-studio-code'
+cask 'spotify'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -75,4 +76,5 @@ mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
 mas 'The Unarchiver', id: 425424353
 mas 'Unsplash', id: 1284863847
-mas 'WhatsApp', id: 1147396723 
+mas 'WhatsApp', id: 1147396723
+mas 'Magnet', id: 441258766
