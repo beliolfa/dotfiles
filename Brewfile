@@ -28,7 +28,6 @@ brew 'redis'
 cask 'aerial'
 cask 'alfred'
 cask 'caffeine'
-cask 'firefox'
 cask 'github'
 cask 'google-chrome'
 cask 'insomnia'
@@ -40,6 +39,8 @@ cask 'slack'
 cask 'tableplus'
 cask 'visual-studio-code'
 cask 'spotify'
+cask 'iterm2'
+cask 'notion'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -63,3 +64,4 @@ mas 'The Unarchiver', id: 425424353
 mas 'Unsplash', id: 1284863847
 mas 'WhatsApp', id: 1147396723
 mas 'Magnet', id: 441258766
+mas 'Bear', id: 1091189122

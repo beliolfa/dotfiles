@@ -30,6 +30,9 @@ mv composer.phar /usr/local/bin/composer
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
 
+# Install nvm latest node version
+nvm install
+
 # Install global NPM packages
 npm install --global yarn
 
