@@ -2,7 +2,7 @@
 alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 alias reloadcli="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
-alias ll="/usr/local/opt/coreutils/libexec/gnubin/ls -ahlF --color --group-directories-first"
+alias ll="ls -ahlF"
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
 alias zbundle="antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugins.sh"
@@ -35,3 +35,7 @@ alias gc="git checkout"
 alias gd="git diff"
 alias gl="git log --oneline --decorate --color"
 alias gnuke="git clean -df && git reset --hard"
+
+function homestead() {
+    ( cd ~/Homestead && vagrant $* )
+}
