@@ -1,14 +1,14 @@
 export DOTFILES="$HOME/.dotfiles"
 
-# Antibody
-DISABLE_AUTO_UPDATE=true
-export ZSH="$HOME/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
-source $DOTFILES/zsh_plugins.sh
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
 
-# Theme
-export MNML_INSERT_CHAR="🔥  "
-export MNML_PROMPT=('mnml_cwd 20' mnml_git mnml_keymap)
-export MNML_RPROMPT=()
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="robbyrussell"
+
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
 
 # Dotfiles
 source $DOTFILES/path.zsh

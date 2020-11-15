@@ -17,6 +17,9 @@ brew bundle
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
+# Set default MySQL root password and auth type.
+mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
+
 # Install PHP extensions with PECL
 pecl install memcached imagick
 
@@ -25,7 +28,7 @@ curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/spark-installer laravel/valet
+/usr/local/bin/composer global require laravel/installer laravel/valet
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
