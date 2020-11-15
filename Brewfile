@@ -13,7 +13,7 @@ brew 'ffmpeg'
 
 # Development
 brew 'php'
-brew 'imagick'
+brew 'imagemagick'
 brew 'mysql'
 brew 'nginx'
 brew 'nvm'
@@ -24,7 +24,6 @@ brew 'yarn'
 cask 'alfred'
 cask 'google-chrome'
 cask 'google-backup-and-sync'
-cask 'java'
 cask 'slack'
 cask 'tableplus'
 cask 'visual-studio-code'
@@ -55,7 +54,6 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Slack', id: 803453959
 mas 'Trello', id: 1278508951
 mas 'WhatsApp', id: 1147396723
 mas 'Magnet', id: 441258766
