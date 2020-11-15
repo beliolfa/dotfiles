@@ -32,6 +32,10 @@ cask 'spotify'
 cask 'iterm2'
 cask 'notion'
 cask 'figma'
+cask 'stoplight-studio'
+cask 'sizzy'
+cask 'recordit'
+cask 'hubstaff'
 cask 'the-unarchiver'
 
 # Quicklook
