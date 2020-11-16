@@ -50,6 +50,9 @@ mkdir $HOME/Sites
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+# Install vscode extensions
+cat $DOTFILES/extensions.vscode | xargs -L 1 code --install-extension
+
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
